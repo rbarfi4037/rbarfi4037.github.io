@@ -3,23 +3,24 @@
 		<head>
 			<meta charset="utf-8">
 			<link rel="stylesheet" href="assets/css/ic.css">
-			
+			<script>
+				function openPage()
+				{
+					window.location.href="memes/index.html";
+				}
+			</script>
 			<title>MEME WEBSITE</title>
 		</head>
 		
 		<body>
 			<div class="border">
 				<div class="container">
-					<img id='images' class='image' src="images/bananaFish.jpg" alt='GMO Meme'/>
-					<div class="overlay">
-						<div id="txt" class="text">GMO's in a Nutshell</div>
+					<img id='images' class='image' src="BarfieldMemesLogo.png" alt='BarfieldMemesLogo'/>
+					<div class="overlay" onClick="openPage();">
+						<div id="txt" class="text">Click the Image to see my Collection of Memes</div>
 					</div>
 				</div>
 			</div>
-			
-			<h1 class="center">Use Arrowkeys to Swap between Memes</h1>
+			<h1 class="center">BarfieldMemesCo. Top Selected Memes</h1>
 		</body>
 	</html>
-
-	
-<div onmouseover="document.getElementById('images').src='images/bananaFish.jpg'"
